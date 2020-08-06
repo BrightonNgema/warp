@@ -3,7 +3,7 @@ import ApolloClient from 'apollo-boost'
 import { ApolloProvider } from 'react-apollo';
 import ReactDOM from "react-dom";
 import './index.css'
-import routes from './routes'
+import routes from './utils/routes'
 import * as serviceWorker from './serviceWorker'
 import 'bootstrap/dist/css/bootstrap.css';
 import { CartProvider } from './utils/cartContext';
