@@ -58,6 +58,7 @@ class Home extends Component {
             <div style={{backgroundColor:'#f5f5f5', minHeight:'100vh'}}>
                 <Navigation />
                 <div className="container" style={{paddingTop:100}}>
+                    <h1>Browse Vehicles</h1>
                     <div className="row">
                         <Filter 
                             state={this.state}
