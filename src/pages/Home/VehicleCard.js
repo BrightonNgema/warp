@@ -21,7 +21,7 @@ const VehicleCard = ({item}) => {
     return (
         <div className="card mb-3" style={{backgroundColor:'#1e1e1e'}}>
                 <div className="row no-gutters">
-                    <div className="col-md-5" style={{backgroundPosition:'center',backgroundRepeat:'no-repeat', backgroundSize:'contain', padding:10, paddingRight:0}}>
+                    <div className="col-md-5" style={{backgroundPosition:'center',backgroundRepeat:'no-repeat', backgroundSize:'contain', padding:10}}>
                         <img alt={item.manufacturer+"_"+item.model} src={image} style={{height:'100%', width:'100%'}}/>        
                     </div>
                     <div className="col-md-7">
